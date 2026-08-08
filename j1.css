@@ -1,0 +1,16 @@
+#counter{
+    display: block;
+    font-size: 30px;
+    font-family: Helvetica;
+    
+}
+.bt{
+    background-color: blue;
+    color:white ;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.34s;
+}
+.bt:hover{
+    background-color: rgb(94, 94, 219);
+}
