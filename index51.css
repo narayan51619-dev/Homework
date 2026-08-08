@@ -1,0 +1,368 @@
+
+#imag{
+    height: 100px;
+    width: 150px;
+}
+.flex1{
+    height: 60px;
+    border: 1px cornsilk;
+    background-color: rgb(243, 243, 240);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top:2px;
+    justify-content: center;
+    gap:20px;
+    z-index: 1000;
+}
+#basket{
+    height: 50px;
+    width: 50px; 
+    border: 2px black;  
+    background-color: #d11212;
+    margin-right: 20px;
+    animation: shake 0.5s;
+    animation-iteration-count: 100;
+}
+@keyframes shake{
+    0%   { transform: translateX(0); }
+    20%  { transform: translateX(-8px); }
+    40%  { transform: translateX(8px); }
+    60%  { transform: translateX(-8px); }
+    80%  { transform: translateX(8px); }
+    100% { transform: translateX(0); }
+}
+#search{
+    width: 300px;
+    height: 45px;
+    margin-right: 100px;
+}
+#del{
+    width: auto;
+    height: 40px;
+    border: 1px;
+    color: darkgreen;
+    background-color: rgb(253, 224, 224);
+    border-radius: 5px;
+}
+#logi{
+    border: 1px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: auto;
+    align-content: center;
+    border-radius: 5px;
+}
+#p{
+  border:2px ;
+  background-color:green ;
+  height: 10px;
+  animation: zoomIn-Out 5s;
+  animation-timing-function: ease-out;
+}
+@keyframes zoomIn-Out {
+    from { transform: scale(0.5); }
+    to { transform: scale(1); }
+}
+#p2{
+    font-size: 50px;
+    font-style:italic ;
+}
+#cat{
+    border: 0px;
+    background-color: rgb(5, 136, 5);
+    color: white;
+    font-size: 30px;
+    border-radius: 6px;
+}
+#veg1{
+    height: 550px;
+    width: 250px;
+    border: 1px rgb(248, 241, 212);
+    background-color: white;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 20px;
+    transition: all;
+    transition-duration: 2s;
+}
+#tomato{
+    display: grid;
+    justify-self: center;
+    height: 200px;
+    width: 200px;
+    border: 0px;
+    border-radius: 5px;
+    align-self: center;
+    
+}
+#t1{
+
+    width: 70px;
+    border: 0px;
+    background-color: darkgreen;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    bottom:2px;
+}
+#pi{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 0px;
+    background-color: rgb(223, 230, 230);
+    width:220px ;
+    padding: 5px;
+    height: 250px;
+    margin: 6px;
+    border-radius: 5px;
+    
+}
+#t2{
+    display: grid;
+    justify-self: right;
+    border: 0px;
+    background-color: rgb(239, 241, 243);
+    border-radius: 6px;
+    color: darkgreen;
+}
+#t3{
+    color: grey;
+    opacity:0.8;
+}
+#t4{
+    font-style: italic;
+    font-size: 30px;
+}
+#t6{
+    color: black;
+    font-size:25px ;
+}
+s{
+    font-size: 18px;
+    opacity: 0.8;
+}
+#price{
+    display:flex;
+    
+}
+#t7{
+    border: 1px solid red;
+    height: 30px;
+    width: 140px;
+    border-radius: 5px;
+}
+#heart{
+    color: black;
+    font-size: 27px;
+    border:1px ;
+    height: 30px;
+    width:50px;
+    border-radius: 5px;
+    background-color: rgb(247, 244, 244);
+
+}
+#but{
+    display: flex;
+    gap: 15px;
+}
+.veggies{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.box{
+    border: 0px;
+    background-color: rgb(235, 235, 236);
+    border-radius: 6px;
+}
+#veg1:hover{
+    width: 300px;
+    height: 600px;
+}
+.im{
+    width: 1500px;
+    height: 160px;
+    border: 1px;
+    animation: float 3s ease-in-out infinite;
+    position: relative;
+    left: 50px;
+    
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+#ig{
+    width: 1500px;
+    height: 100px;
+    position: relative;
+    left: 50px;
+    
+}
+.green-line{
+    height: 8px;
+    background-color: green;
+    width: 0;
+     animation: fillLine 1.5s forwards;
+}
+@keyframes fillLine{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+#li{
+    visibility: hidden;
+    display: none;
+}
+#ima{
+  visibility: hidden;
+    display: none;
+}
+.flex2{
+   height: 60px;
+    border: 1px cornsilk;
+    background-color: rgb(243, 243, 240);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top:2px;
+    justify-content: center;
+    gap:20px;
+    z-index: 1000;
+}
+.flex2{
+    visibility: hidden;
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .flex1{
+       visibility: hidden;
+       display: none;
+    }
+     #li{
+        width:50px;
+        height: 50px;
+        visibility: visible;
+        display:block;
+        color: blue;
+     }
+     .im{
+        display: none;
+        visibility: hidden;
+
+     }
+     #ima{
+       visibility: visible;
+        display:flex;
+        justify-content: center;
+        left: 30px;
+        height:250px;
+        width: 200px;
+    }
+    .veggies{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #veg1{
+    height: 500px;
+    width: 200px;
+    
+    }
+    #tomato{
+        height: 100px;
+    width: 100px;
+    }
+    #pi{
+        width:150px ;
+        height: 160px;
+    }
+    .flex2{
+    
+    display: none;
+   }
+    #veg1:hover{
+    width: 200px;
+    height: 500px;
+   }
+    #ig{
+        width:100%;
+    }
+}
+
+
+@media only screen and (min-width:601px) and (max-width: 1277px){
+    .flex2{
+        visibility: visible;
+        display:flex;
+        
+
+    }
+    .flex1{
+        visibility: hidden;
+        display: none;
+    }
+    #li{
+        width:100px;
+        height: 50px;
+        visibility: visible;
+        display:block;
+        color: blue;
+        
+        
+     }
+    #basket{
+    height: 30px;
+    width: 30px; 
+    }
+    #search{
+    width: 150px;
+    height: 45px;
+    }
+    #log{
+        height: 40px;
+    width: 100px;
+    }
+    .veggies{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .im{
+        width:100% ;
+    }
+    #veg1:hover{
+    width: 300px;
+    height: 600px;
+   }
+    #ig{
+        width:100%;
+    }
+}
+    
+
+    
+
+
+
